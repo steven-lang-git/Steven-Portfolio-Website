@@ -246,6 +246,7 @@ b.max-bold{ font-weight: 700; }
 
 .margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
 
+.font-blue { color: #080f5b; }
 .font-green{ color: #15db95; }
 
 .font-semi-white{ color: #ddd; }
@@ -483,7 +484,14 @@ mark.green{
 .radial-progress .progress-title{ position: absolute; top: 50%; left: 50%; width: 100%;
 	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
 
-	
+.othertech .list {
+    margin-top:20px;
+}
+
+.othertech .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; width:50%; float: left; }
+
+.othertech .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #15DB95; ;  }
 
 /* ---------------------------------
 7. EXPERIENCE SECTION
@@ -496,10 +504,6 @@ mark.green{
 .experience-section .info .icon{float: right; font-size:35px;}
 
 .experience-section .info .right-area{ }
-
-
-
-
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
