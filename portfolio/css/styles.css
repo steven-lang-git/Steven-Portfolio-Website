@@ -24,9 +24,11 @@
 
 
 
+
 /*---------
 0. LOADER STYLE
 ------------*/
+
 
 .loader {
   max-width: 15rem;
@@ -258,7 +260,7 @@ b.max-bold{ font-weight: 700; }
 3. HEADER
 --------------------------------- */
 
-header{ position: absolute; top: 0px; left: 0; right: 0; z-index: 100; }
+header{ position: relative; top: 0px; left: 0; right: 0; z-index: 100; }
 
 header .heading-wrapper{ border-radius: 5px; padding: 30px 40px 20px; background: rgba(169, 169, 169, 0.35); color: #fff; top:30px; position:relative;}
 
@@ -276,7 +278,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 #headerwrap {
     background-color: #f3f3f3;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .opaque {
@@ -341,7 +343,7 @@ header .intro-text {
 
 #headerwrap img {
     margin: 0 auto;
-    display: block;
+    display: flex;
 }
 
 header .intro-text .intro-lead-in {
@@ -410,13 +412,13 @@ mark.green{
 4. INTRO SECTION
 --------------------------------- */
 
-.intro-section{ padding-top: 700px; position: relative; background-size: cover; 
+.intro-section{ position: relative; background-size: cover; 
 }
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
 	
 .intro-section:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-	height: 230px; z-index: -1; background: #fff; }
+	height: 245px; z-index: -1; background: #fff; }
 
 .intro{ padding: 0 20px; top: 100px; margin-top: 20px; text-align: center; background: #fff; }
 
